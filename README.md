@@ -1,4 +1,4 @@
-# MCP I Use
+# MCP Servers and Tools I Use
 
 This repository documents the Model Context Protocol (MCP) servers I frequently use and the tools they provide. MCP enables AI assistants like Claude to interact with external systems and data sources.
 
@@ -19,22 +19,7 @@ This repository documents the Model Context Protocol (MCP) servers I frequently 
 
 **Installation:** `npx -y @wonderwhy-er/desktop-commander`
 
-### 2. Convex MCP
-
-**Description:** A MCP server that allows Claude to interact with Convex deployments.
-
-**Functionality:**
-- Query and read Convex database tables
-- Execute Convex functions (queries, mutations, actions)
-- Access function metadata and specifications
-- Manage environment variables
-- Run one-off queries against your Convex deployment
-
-**Repository:** Built into the Convex CLI (version 1.19.5+)
-
-**Installation:** `npx -y convex@latest mcp start`
-
-### 3. Tavily MCP
+### 2. Tavily MCP
 
 **Description:** A MCP server that provides AI-powered web search and content extraction capabilities using Tavily's API.
 
@@ -49,7 +34,7 @@ This repository documents the Model Context Protocol (MCP) servers I frequently 
 
 **Installation:** `npx -y tavily-mcp@0.1.4`
 
-### 4. GitHub MCP
+### 3. GitHub MCP
 
 **Description:** GitHub's official MCP server that enables Claude to interact with GitHub repositories and features.
 
@@ -65,7 +50,7 @@ This repository documents the Model Context Protocol (MCP) servers I frequently 
 
 **Installation:** Run via Docker with `docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server`
 
-### 5. Memory MCP
+### 4. Memory MCP
 
 **Description:** A knowledge graph-based memory server that enables Claude to maintain contextual information and memory.
 
@@ -80,6 +65,14 @@ This repository documents the Model Context Protocol (MCP) servers I frequently 
 **Repository:** [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 
 **Installation:** `npx -y @modelcontextprotocol/server-memory`
+
+## Configuration
+
+My current MCP server configuration is stored in `/home/joe/.config/Claude/claude_desktop_config.json`. This file contains connection details, API keys, and other settings for each MCP server.
+
+## License
+
+This documentation is for personal reference. All MCP servers mentioned maintain their own licenses as specified in their respective repositories.
 
 ---
 
