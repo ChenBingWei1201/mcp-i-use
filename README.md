@@ -66,6 +66,19 @@ This repository documents the Model Context Protocol (MCP) servers I frequently 
 
 **Installation:** `npx -y @modelcontextprotocol/server-memory`
 
+### 5. brave-search
+
+**Description:** A MCP server that allows Claude to perform searches using Brave Search's API.
+
+**Functionality:**
+- Perform web searches using Brave Search
+- Control result types, safety levels, and content freshness
+- Local search automatically falls back to web when no results are found
+
+**Repository:** [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+
+**Installation:** `npx -y @modelcontextprotocol/server-brave-search`
+
 ## Configuration
 
 My current MCP server configuration is stored in `/home/joe/.config/Claude/claude_desktop_config.json`. This file contains connection details, API keys, and other settings for each MCP server.
@@ -76,6 +89,6 @@ This documentation is for personal reference. All MCP servers mentioned maintain
 
 ---
 
-**Last Updated:** April 2025
+**Last Updated:** May 2025
 
 *Note: This is a personal tracking repository. For official documentation, please refer to the original repositories linked above.*
