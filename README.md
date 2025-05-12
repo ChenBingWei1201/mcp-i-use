@@ -36,7 +36,7 @@ This repository documents the Model Context Protocol (MCP) servers I frequently 
 
 ### 3. GitHub MCP
 
-**Description:** GitHub's official MCP server that enables Claude to interact with GitHub repositories and features.
+**Description:** GitHub MCP server that enables Claude to interact with GitHub repositories and features.
 
 **Functionality:**
 - Create, read, and update GitHub repositories
@@ -46,9 +46,9 @@ This repository documents the Model Context Protocol (MCP) servers I frequently 
 - Access and manipulate repository content
 - Create branches and manage commits
 
-**Repository:** [https://github.com/github/github-mcp-server](https://github.com/github/github-mcp-server)
+**Repository:** [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 
-**Installation:** Run via Docker with `docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server`
+**Installation:** Run via Docker with `npx -y @modelcontextprotocol/server-github`
 
 ### 4. Memory MCP
 
